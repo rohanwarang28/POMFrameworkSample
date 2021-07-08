@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 47.719 s <<< FAILURE! - in TestSuite
+verifyLoginHeader(com.qa.tests.LoginPageTest)  Time elapsed: 0.103 s  <<< FAILURE!
+java.lang.AssertionError: expected [HOME] but found [Home]
+	at com.qa.tests.LoginPageTest.verifyLoginHeader(LoginPageTest.java:80)
+
+LoginTest(com.qa.tests.LoginPageTest)  Time elapsed: 6.096 s  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPRO] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
+	at com.qa.tests.LoginPageTest.LoginTest(LoginPageTest.java:73)
+

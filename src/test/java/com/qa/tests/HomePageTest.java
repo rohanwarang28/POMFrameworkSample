@@ -1,10 +1,13 @@
 package com.qa.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
+import com.relevantcodes.extentreports.ExtentReports;
 
 public class HomePageTest extends BaseTest{
 	
@@ -14,13 +17,29 @@ public class HomePageTest extends BaseTest{
 		
 		super();
 	}
+	 @BeforeTest
+	  public void setExtent() {
+		  
+		  ex = new ExtentReports(System.getProperty("user.dir")+"\\test-output\\FreeCRM_Extent.html",true);
+	  }
+	  
+	 
+	  
+	 
+	@AfterTest
+	public void closeExtent() {
+		
+		ex.flush();
+		ex.close();
+	}
 	
 	@Test
 	public void validateHomePageTitleTest() throws Exception {
-		
+		extentTest = ex.startTest("validateHomePageTitleTest");
 		homepage =  page.getInstance(LoginPage.class).doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		String actualTitle = homepage.getHomePageTitle();
 		Assert.assertEquals(actualTitle, "CRMPRO");
+		
 	}
 
 }
