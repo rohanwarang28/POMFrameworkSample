@@ -1,7 +1,7 @@
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\pages\BasePage.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\pages\HomePage.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\util\TestUtil.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\pages\LoginPage.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\ExtentReporterNG\ExtentReporter.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\pages\Page.java
-E:\My_Workspace\PageObjModelUsingOOP\src\main\java\com\qa\util\WebEventListener.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\pages\BasePage.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\util\TestUtil.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\pages\Page.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\ExtentReporterNG\ExtentReporter.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\util\WebEventListener.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\pages\HomePage.java
+E:\My_Workspace\POMFrameworkSample\src\main\java\com\qa\pages\LoginPage.java

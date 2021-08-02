@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57365" started-at="2021-07-08T16:58:25 IST" finished-at="2021-07-08T16:59:22 IST">
+  <suite name="Suite" duration-ms="76055" started-at="2021-08-02T20:57:21 IST" finished-at="2021-08-02T20:58:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57365" started-at="2021-07-08T16:58:25 IST" finished-at="2021-07-08T16:59:22 IST">
+    <test name="Test" duration-ms="76055" started-at="2021-08-02T20:57:21 IST" finished-at="2021-08-02T20:58:37 IST">
       <class name="com.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="setExtent" is-config="true" duration-ms="133" started-at="2021-07-08T16:58:25 IST" finished-at="2021-07-08T16:58:25 IST">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="setExtent" is-config="true" duration-ms="193" started-at="2021-08-02T20:57:21 IST" finished-at="2021-08-02T20:57:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="setup" is-config="true" duration-ms="11806" started-at="2021-07-08T16:58:25 IST" finished-at="2021-07-08T16:58:37 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="setup" is-config="true" duration-ms="23428" started-at="2021-08-02T20:57:21 IST" finished-at="2021-08-02T20:57:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyLoginHeader()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="verifyLoginHeader" duration-ms="109" started-at="2021-07-08T16:58:37 IST" finished-at="2021-07-08T16:58:37 IST">
+        <test-method status="FAIL" signature="verifyLoginHeader()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="verifyLoginHeader" duration-ms="124" started-at="2021-08-02T20:57:45 IST" finished-at="2021-08-02T20:57:45 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [HOME] but found [Home]]]>
@@ -58,41 +58,41 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginHeader -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="tearDown" is-config="true" duration-ms="1034" started-at="2021-07-08T16:58:37 IST" finished-at="2021-07-08T16:58:38 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="tearDown" is-config="true" duration-ms="1396" started-at="2021-08-02T20:57:45 IST" finished-at="2021-08-02T20:57:46 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginHeader status=FAILURE method=LoginPageTest.verifyLoginHeader()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginHeader status=FAILURE method=LoginPageTest.verifyLoginHeader()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="setup" is-config="true" duration-ms="10219" started-at="2021-07-08T16:58:38 IST" finished-at="2021-07-08T16:58:48 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="setup" is-config="true" duration-ms="10830" started-at="2021-08-02T20:57:46 IST" finished-at="2021-08-02T20:57:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@627551fb]" name="LoginPageTitleTest" duration-ms="14" started-at="2021-07-08T16:58:48 IST" finished-at="2021-07-08T16:58:48 IST">
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@1060b431]" name="LoginPageTitleTest" duration-ms="35" started-at="2021-08-02T20:57:57 IST" finished-at="2021-08-02T20:57:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="tearDown" is-config="true" duration-ms="746" started-at="2021-07-08T16:58:48 IST" finished-at="2021-07-08T16:58:49 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="tearDown" is-config="true" duration-ms="810" started-at="2021-08-02T20:57:57 IST" finished-at="2021-08-02T20:57:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginPageTitleTest status=SUCCESS method=LoginPageTest.LoginPageTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@627551fb] output={null}]]]>
+                <![CDATA[[TestResult name=LoginPageTitleTest status=SUCCESS method=LoginPageTest.LoginPageTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@1060b431] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="setup" is-config="true" duration-ms="7295" started-at="2021-07-08T16:58:49 IST" finished-at="2021-07-08T16:58:57 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="setup" is-config="true" duration-ms="13915" started-at="2021-08-02T20:57:58 IST" finished-at="2021-08-02T20:58:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@627551fb]" name="LoginTest" duration-ms="11410" started-at="2021-07-08T16:58:57 IST" data-provider="getLoginData" finished-at="2021-07-08T16:59:08 IST">
+        <test-method status="FAIL" signature="LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@1060b431]" name="LoginTest" duration-ms="9096" started-at="2021-08-02T20:58:12 IST" data-provider="getLoginData" finished-at="2021-08-02T20:58:21 IST">
           <params>
             <param index="0">
               <value>
@@ -147,22 +147,22 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="tearDown" is-config="true" duration-ms="1059" started-at="2021-07-08T16:59:08 IST" finished-at="2021-07-08T16:59:09 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="tearDown" is-config="true" duration-ms="1051" started-at="2021-08-02T20:58:21 IST" finished-at="2021-08-02T20:58:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=FAILURE method=LoginPageTest.LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@627551fb] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=FAILURE method=LoginPageTest.LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@1060b431] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="setup" is-config="true" duration-ms="7430" started-at="2021-07-08T16:59:09 IST" finished-at="2021-07-08T16:59:17 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="setup" is-config="true" duration-ms="8689" started-at="2021-08-02T20:58:23 IST" finished-at="2021-08-02T20:58:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@627551fb]" name="LoginTest" duration-ms="4468" started-at="2021-07-08T16:59:17 IST" data-provider="getLoginData" finished-at="2021-07-08T16:59:21 IST">
+        <test-method status="PASS" signature="LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@1060b431]" name="LoginTest" duration-ms="4544" started-at="2021-08-02T20:58:31 IST" data-provider="getLoginData" finished-at="2021-08-02T20:58:36 IST">
           <params>
             <param index="0">
               <value>
@@ -178,18 +178,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="tearDown" is-config="true" duration-ms="753" started-at="2021-07-08T16:59:21 IST" finished-at="2021-07-08T16:59:22 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="tearDown" is-config="true" duration-ms="791" started-at="2021-08-02T20:58:36 IST" finished-at="2021-08-02T20:58:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@627551fb] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginPageTest.LoginTest(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tests.LoginPageTest@1060b431] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeExtent()[pri:0, instance:com.qa.tests.LoginPageTest@627551fb]" name="closeExtent" is-config="true" duration-ms="318" started-at="2021-07-08T16:59:22 IST" finished-at="2021-07-08T16:59:22 IST">
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:com.qa.tests.LoginPageTest@1060b431]" name="closeExtent" is-config="true" duration-ms="363" started-at="2021-08-02T20:58:37 IST" finished-at="2021-08-02T20:58:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExtent -->

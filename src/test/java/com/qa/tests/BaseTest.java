@@ -62,8 +62,8 @@ public class BaseTest{
 	//@Parameters(value= {"browser"})
 	public void setup() {
 		
-		String browser = "chrome";
-		
+		//String browser = "chrome";
+		String browser = System.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();

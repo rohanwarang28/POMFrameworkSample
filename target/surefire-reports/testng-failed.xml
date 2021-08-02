@@ -12,10 +12,11 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
           <include name="setExtent"/>
           <include name="verifyLoginHeader"/>
           <include name="closeExtent"/>
-          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="LoginTest"/>
         </methods>
       </class> <!-- com.qa.tests.LoginPageTest -->
     </classes>

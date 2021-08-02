@@ -1,12 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 47.719 s <<< FAILURE! - in TestSuite
-verifyLoginHeader(com.qa.tests.LoginPageTest)  Time elapsed: 0.103 s  <<< FAILURE!
-java.lang.AssertionError: expected [HOME] but found [Home]
-	at com.qa.tests.LoginPageTest.verifyLoginHeader(LoginPageTest.java:80)
-
-LoginTest(com.qa.tests.LoginPageTest)  Time elapsed: 6.096 s  <<< FAILURE!
-java.lang.AssertionError: expected [CRMPRO] but found [Free CRM - CRM software for customer relationship management, sales, and support.]
-	at com.qa.tests.LoginPageTest.LoginTest(LoginPageTest.java:73)
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 11, Time elapsed: 5.843 s <<< FAILURE! - in TestSuite
+setup(com.qa.tests.LoginPageTest)  Time elapsed: 4.137 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PHQCGIDH', ip: '172.31.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: FirefoxDriver
 
