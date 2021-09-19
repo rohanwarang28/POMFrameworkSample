@@ -26,12 +26,13 @@ public class TestUtil extends BasePage{
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void takeScreenshot() throws IOException {
+	public static String takeScreenshot(String scName) throws IOException {
 		
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File fs = ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(fs, new File(System.getProperty("user.dir")+"\\ErrorScreenshots\\error.png"));
-		
+		String destinationPath = System.getProperty("user.dir")+"\\ErrorScreenshots\\"+scName+".png";
+		FileUtils.copyFile(fs, new File(destinationPath));
+		return destinationPath;
 	}
 	
 	

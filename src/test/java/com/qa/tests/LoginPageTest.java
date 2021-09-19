@@ -18,11 +18,9 @@ import org.testng.annotations.Test;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.util.TestUtil;
-import com.relevantcodes.extentreports.ExtentReports;
 
 
-
-public class LoginPageTest extends BaseTest{
+class LoginPageTest extends BaseTest{
 	
 	
 	  LoginPageTest(){
@@ -31,26 +29,24 @@ public class LoginPageTest extends BaseTest{
 	  
 	  }
 	
-	  @BeforeTest
-	  public void setExtent() {
-		  
-		  ex = new ExtentReports(System.getProperty("user.dir")+"\\test-output\\FreeCRM_Extent.html",true);
-	  }
-	  
-	 
-	  
-	 
-	@AfterTest
-	public void closeExtent() {
-		
-		ex.flush();
-		ex.close();
-	}
+		/*
+		 * @BeforeTest public void setExtent() {
+		 * 
+		 * ex = new ExtentReports(System.getProperty("user.dir")+
+		 * "\\test-output\\FreeCRM_Extent.html",true); }
+		 * 
+		 * 
+		 * 
+		 * 
+		 * @AfterTest public void closeExtent() {
+		 * 
+		 * ex.flush(); ex.close(); }
+		 */
 	
 	
 	@Test(priority=1,enabled = true)
 	public void LoginPageTitleTest() {
-		extentTest = ex.startTest("LoginPageTitleTest");
+		
 		String loginTitle = page.getInstance(LoginPage.class).getLoginPageTitle();
 		Assert.assertEquals(loginTitle, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
@@ -66,7 +62,7 @@ public class LoginPageTest extends BaseTest{
 	@Test(priority = 2 , dataProvider = "getLoginData",enabled = true)
 	public void LoginTest(String uname,String pwd) throws Exception {
 		
-		extentTest = ex.startTest("LoginTest");
+		
 		HomePage homepage = page.getInstance(LoginPage.class).doLogin(uname, pwd);
 		String homeTitle = homepage.getHomePageTitle();
 		
@@ -76,7 +72,7 @@ public class LoginPageTest extends BaseTest{
 	
 	@Test()
 	public void verifyLoginHeader() {
-		extentTest = ex.startTest("verifyLoginHeader");
+	
 		Assert.assertEquals(page.getInstance(LoginPage.class).getLoginHeader(), "HOME"); 
 	}
 	

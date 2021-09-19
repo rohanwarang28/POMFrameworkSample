@@ -1,0 +1,25 @@
+# Created on 2021-08-03T22:42:24.311
+org.testng.TestNGException: 
+Cannot instantiate class com.qa.util.WebEventListener
+	at org.testng.internal.InstanceCreator.newInstance(InstanceCreator.java:36)
+	at org.testng.TestNG.addListeners(TestNG.java:964)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:924)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1012)
+	at org.testng.TestNG.run(TestNG.java:1023)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: java.lang.InstantiationException: com.qa.util.WebEventListener
+	at java.lang.Class.newInstance(Class.java:427)
+	at org.testng.internal.InstanceCreator.newInstance(InstanceCreator.java:30)
+	... 11 more
+Caused by: java.lang.NoSuchMethodException: com.qa.util.WebEventListener.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.newInstance(Class.java:412)
+	... 12 more
+
+

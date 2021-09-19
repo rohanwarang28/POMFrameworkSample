@@ -1,0 +1,4 @@
+com\qa\tests\OrderTest.class
+com\qa\tests\LoginPageTest.class
+com\qa\tests\HomePageTest.class
+com\qa\tests\BaseTest.class

@@ -1,0 +1,391 @@
+Attaching to selenium-hub, pomframeworksample_firefox_1, pomframeworksample_chrome_1, pomframeworksample_chrome_2, pomframeworksample_chrome_3, pomframeworksample_chrome_4, pomframeworksample_chrome_5
+[32mchrome_3        |[0m 2021-09-06 12:37:58,749 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mchrome_3        |[0m 2021-09-06 12:37:58,754 INFO supervisord started with pid 9
+[32mchrome_3        |[0m 2021-09-06 12:37:59,757 INFO spawned: 'xvfb' with pid 11
+[32mchrome_3        |[0m 2021-09-06 12:37:59,761 INFO spawned: 'selenium-node' with pid 12
+[32mchrome_3        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mchrome_3        |[0m 2021-09-06 12:38:00,260 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mchrome_3        |[0m 2021-09-06 12:38:00,260 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mchrome_3        |[0m 12:38:00.979 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mchrome_3        |[0m 12:38:01.346 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mchrome_3        |[0m 2021-09-06 12:38:01.670:INFO::main: Logging initialized @1401ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mchrome_3        |[0m 12:38:02.565 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mchrome_3        |[0m 12:38:14.397 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mchrome_3        |[0m 12:38:14.397 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mchrome_3        |[0m 12:38:14.569 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mchrome_3        |[0m 12:38:15.358 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mchrome_3        |[0m 12:38:15.391 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[34mchrome_5        |[0m 2021-09-06 12:37:57,989 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[34mchrome_5        |[0m 2021-09-06 12:37:57,994 INFO supervisord started with pid 10
+[34mchrome_5        |[0m 2021-09-06 12:37:58,997 INFO spawned: 'xvfb' with pid 12
+[34mchrome_5        |[0m 2021-09-06 12:37:59,000 INFO spawned: 'selenium-node' with pid 13
+[34mchrome_5        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[34mchrome_5        |[0m 2021-09-06 12:37:59,482 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mchrome_5        |[0m 2021-09-06 12:37:59,483 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[34mchrome_5        |[0m 12:37:59.952 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[34mchrome_5        |[0m 12:38:00.238 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[34mchrome_5        |[0m 2021-09-06 12:38:00.428:INFO::main: Logging initialized @937ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[34mchrome_5        |[0m 12:38:01.146 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[34mchrome_5        |[0m 12:38:01.647 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[34mchrome_5        |[0m 12:38:01.651 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[34mchrome_5        |[0m 12:38:01.849 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[34mchrome_5        |[0m 12:38:12.634 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[34mchrome_5        |[0m 12:38:12.845 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mchrome_1        |[0m 2021-09-06 12:37:59,421 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36mchrome_1        |[0m 2021-09-06 12:37:59,425 INFO supervisord started with pid 9
+[36mchrome_1        |[0m 2021-09-06 12:38:00,433 INFO spawned: 'xvfb' with pid 11
+[36mchrome_1        |[0m 2021-09-06 12:38:00,436 INFO spawned: 'selenium-node' with pid 12
+[36mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[36mchrome_1        |[0m 2021-09-06 12:38:01,084 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 2021-09-06 12:38:01,084 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mchrome_1        |[0m 12:38:01.951 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mchrome_1        |[0m 12:38:02.364 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[36mchrome_1        |[0m 2021-09-06 12:38:02.663:INFO::main: Logging initialized @1554ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mchrome_1        |[0m 12:38:11.969 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[36mchrome_1        |[0m 12:38:12.627 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[36mchrome_1        |[0m 12:38:12.628 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[36mchrome_1        |[0m 12:38:12.812 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[36mchrome_1        |[0m 12:38:16.717 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[36mchrome_1        |[0m 12:38:16.763 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_2        |[0m 2021-09-06 12:37:58,552 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_2        |[0m 2021-09-06 12:37:58,556 INFO supervisord started with pid 9
+[33mchrome_2        |[0m 2021-09-06 12:37:59,560 INFO spawned: 'xvfb' with pid 11
+[33mchrome_2        |[0m 2021-09-06 12:37:59,563 INFO spawned: 'selenium-node' with pid 12
+[33mchrome_2        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_2        |[0m 2021-09-06 12:38:00,003 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_2        |[0m 2021-09-06 12:38:00,003 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_2        |[0m 12:38:00.614 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_2        |[0m 12:38:00.939 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_2        |[0m 2021-09-06 12:38:01.209:INFO::main: Logging initialized @1185ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_2        |[0m 12:38:02.168 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_2        |[0m 12:38:02.728 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_2        |[0m 12:38:02.729 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_2        |[0m 12:38:04.193 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_2        |[0m 12:38:12.630 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_2        |[0m 12:38:12.846 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36;1mfirefox_1       |[0m 2021-09-06 12:37:58,758 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36;1mfirefox_1       |[0m 2021-09-06 12:37:58,763 INFO supervisord started with pid 8
+[36;1mfirefox_1       |[0m 2021-09-06 12:37:59,767 INFO spawned: 'xvfb' with pid 10
+[36;1mfirefox_1       |[0m 2021-09-06 12:37:59,770 INFO spawned: 'selenium-node' with pid 11
+[36;1mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[36;1mfirefox_1       |[0m 2021-09-06 12:38:00,276 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_1       |[0m 2021-09-06 12:38:00,277 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36;1mfirefox_1       |[0m 12:38:00.945 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36;1mfirefox_1       |[0m 12:38:01.293 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[36;1mfirefox_1       |[0m 2021-09-06 12:38:01.628:INFO::main: Logging initialized @1342ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36;1mfirefox_1       |[0m 12:38:02.529 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[36;1mfirefox_1       |[0m 12:38:03.953 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[36;1mfirefox_1       |[0m 12:38:03.953 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[36;1mfirefox_1       |[0m 12:38:04.016 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[36;1mfirefox_1       |[0m 12:38:12.624 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[36;1mfirefox_1       |[0m 12:38:12.845 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[35mchrome_4        |[0m 2021-09-06 12:37:58,881 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[35mchrome_4        |[0m 2021-09-06 12:37:58,886 INFO supervisord started with pid 8
+[35mchrome_4        |[0m 2021-09-06 12:37:59,891 INFO spawned: 'xvfb' with pid 10
+[35mchrome_4        |[0m 2021-09-06 12:37:59,899 INFO spawned: 'selenium-node' with pid 11
+[35mchrome_4        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[35mchrome_4        |[0m 2021-09-06 12:38:00,442 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mchrome_4        |[0m 2021-09-06 12:38:00,442 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mchrome_4        |[0m 12:38:01.305 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[35mchrome_4        |[0m 12:38:01.717 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[35mchrome_4        |[0m 2021-09-06 12:38:02.093:INFO::main: Logging initialized @1631ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[35mchrome_4        |[0m 12:38:13.277 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[35mchrome_4        |[0m 12:38:15.220 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[35mchrome_4        |[0m 12:38:15.221 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[35mchrome_4        |[0m 12:38:15.833 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[35mchrome_4        |[0m 12:38:17.089 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[35mchrome_4        |[0m 12:38:17.119 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33;1mselenium-hub    |[0m 2021-09-06 12:37:55,547 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[33;1mselenium-hub    |[0m 2021-09-06 12:37:55,553 INFO supervisord started with pid 8
+[33;1mselenium-hub    |[0m 2021-09-06 12:37:56,557 INFO spawned: 'selenium-hub' with pid 10
+[33;1mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[33;1mselenium-hub    |[0m 2021-09-06 12:37:56,578 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33;1mselenium-hub    |[0m {
+[33;1mselenium-hub    |[0m   "host": "0.0.0.0",
+[33;1mselenium-hub    |[0m   "port": 4444,
+[33;1mselenium-hub    |[0m   "role": "hub",
+[33;1mselenium-hub    |[0m   "maxSession": 5,
+[33;1mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[33;1mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[33;1mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[33;1mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[33;1mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[33;1mselenium-hub    |[0m   "browserTimeout": 0,
+[33;1mselenium-hub    |[0m   "timeout": 1800,
+[33;1mselenium-hub    |[0m   "debug": false
+[33;1mselenium-hub    |[0m }
+[33;1mselenium-hub    |[0m 12:37:57.122 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33;1mselenium-hub    |[0m 12:37:57.358 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[33;1mselenium-hub    |[0m 2021-09-06 12:37:57.946:INFO::main: Logging initialized @1356ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33;1mselenium-hub    |[0m 12:37:58.533 INFO [Hub.start] - Selenium Grid hub is up and running
+[33;1mselenium-hub    |[0m 12:37:58.535 INFO [Hub.start] - Nodes should register to http://172.30.0.2:4444/grid/register/
+[33;1mselenium-hub    |[0m 12:37:58.535 INFO [Hub.start] - Clients should connect to http://172.30.0.2:4444/wd/hub
+[33;1mselenium-hub    |[0m 12:38:12.823 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.3:5555
+[33;1mselenium-hub    |[0m 12:38:12.824 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.5:5555
+[33;1mselenium-hub    |[0m 12:38:12.842 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.4:5555
+[33;1mselenium-hub    |[0m 12:38:15.389 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.6:5555
+[33;1mselenium-hub    |[0m 12:38:16.762 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.8:5555
+[33;1mselenium-hub    |[0m 12:38:17.118 INFO [DefaultGridRegistry.add] - Registered a node http://172.30.0.7:5555
+[36;1mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[35mchrome_4        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[34mchrome_5        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mchrome_3        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_2        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[34mchrome_5        |[0m 2021-09-06 12:39:45,880 WARN received SIGTERM indicating exit request
+[34mchrome_5        |[0m 2021-09-06 12:39:45,881 INFO waiting for xvfb, selenium-node to die
+[36;1mfirefox_1       |[0m 2021-09-06 12:39:45,900 WARN received SIGTERM indicating exit request
+[36;1mfirefox_1       |[0m 2021-09-06 12:39:45,901 INFO waiting for xvfb, selenium-node to die
+[35mchrome_4        |[0m 2021-09-06 12:39:45,903 WARN received SIGTERM indicating exit request
+[33mchrome_2        |[0m 2021-09-06 12:39:45,902 WARN received SIGTERM indicating exit request
+[35mchrome_4        |[0m 2021-09-06 12:39:45,904 INFO waiting for xvfb, selenium-node to die
+[33mchrome_2        |[0m 2021-09-06 12:39:45,903 INFO waiting for xvfb, selenium-node to die
+[32mchrome_3        |[0m 2021-09-06 12:39:45,907 WARN received SIGTERM indicating exit request
+[32mchrome_3        |[0m 2021-09-06 12:39:45,908 INFO waiting for xvfb, selenium-node to die
+[36mchrome_1        |[0m 2021-09-06 12:39:46,029 WARN received SIGTERM indicating exit request
+[36mchrome_1        |[0m 2021-09-06 12:39:46,029 INFO waiting for xvfb, selenium-node to die
+[34mchrome_5        |[0m 2021-09-06 12:39:46,883 INFO stopped: selenium-node (terminated by SIGTERM)
+[36;1mfirefox_1       |[0m 2021-09-06 12:39:46,903 INFO stopped: selenium-node (terminated by SIGTERM)
+[33mchrome_2        |[0m 2021-09-06 12:39:46,906 INFO stopped: selenium-node (terminated by SIGTERM)
+[35mchrome_4        |[0m 2021-09-06 12:39:46,906 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mchrome_3        |[0m 2021-09-06 12:39:46,910 INFO stopped: selenium-node (terminated by SIGTERM)
+[36mchrome_1        |[0m 2021-09-06 12:39:47,031 INFO stopped: selenium-node (terminated by SIGTERM)
+[34mchrome_5        |[0m 2021-09-06 12:39:47,886 INFO stopped: xvfb (terminated by SIGTERM)
+[36;1mfirefox_1       |[0m 2021-09-06 12:39:47,906 INFO stopped: xvfb (terminated by SIGTERM)
+[33mchrome_2        |[0m 2021-09-06 12:39:47,908 INFO stopped: xvfb (terminated by SIGTERM)
+[35mchrome_4        |[0m 2021-09-06 12:39:47,909 INFO stopped: xvfb (terminated by SIGTERM)
+[32mchrome_3        |[0m 2021-09-06 12:39:47,913 INFO stopped: xvfb (terminated by SIGTERM)
+[34mchrome_5        |[0m Shutdown complete
+[36;1mfirefox_1       |[0m Shutdown complete
+[35mchrome_4        |[0m Shutdown complete
+[33mchrome_2        |[0m Shutdown complete
+[32mchrome_3        |[0m Shutdown complete
+[36mchrome_1        |[0m 2021-09-06 12:39:48,034 INFO stopped: xvfb (terminated by SIGTERM)
+[36mchrome_1        |[0m Shutdown complete
+[34mpomframeworksample_chrome_5 exited with code 143
+[0m[33;1mselenium-hub    |[0m 12:39:48.722 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: []}}
+[33;1mselenium-hub    |[0m 12:39:48.723 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: []}}
+[33;1mselenium-hub    |[0m 12:39:48.734 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=96e068a9-9db6-4ad0-b7bc-4bd9b9877769, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=1, platformName=LINUX, version=91.0.4472.114, applicationName=, platform=LINUX}
+[33;1mselenium-hub    |[0m 12:39:48.741 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=3a676572-c14a-49e3-b620-ebb6bcac641d, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=1, platformName=LINUX, version=91.0.4472.114, applicationName=, platform=LINUX}
+[32mpomframeworksample_chrome_3 exited with code 143
+[0m[36;1mpomframeworksample_firefox_1 exited with code 143
+[0m[35mpomframeworksample_chrome_4 exited with code 143
+[0m[33mpomframeworksample_chrome_2 exited with code 143
+[0m[36mpomframeworksample_chrome_1 exited with code 143
+[0m[33;1mselenium-hub    |[0m 12:40:56.511 INFO [RequestHandler.process] - Error forwarding the new session Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m org.openqa.grid.internal.exception.NewSessionException: Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:94)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+[33;1mselenium-hub    |[0m 	at java.lang.Thread.run(Thread.java:748)
+[33;1mselenium-hub    |[0m Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+[33;1mselenium-hub    |[0m 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[33;1mselenium-hub    |[0m 	at java.net.Socket.connect(Socket.java:607)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.execute(RealCall.java:77)
+[33;1mselenium-hub    |[0m 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.sendRequestToNode(TestSession.java:422)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.forward(TestSession.java:229)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:91)
+[33;1mselenium-hub    |[0m 	... 35 more
+[33;1mselenium-hub    |[0m 12:40:56.511 INFO [RequestHandler.process] - Error forwarding the new session Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m org.openqa.grid.internal.exception.NewSessionException: Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:94)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+[33;1mselenium-hub    |[0m 	at java.lang.Thread.run(Thread.java:748)
+[33;1mselenium-hub    |[0m Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+[33;1mselenium-hub    |[0m 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[33;1mselenium-hub    |[0m 	at java.net.Socket.connect(Socket.java:607)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.execute(RealCall.java:77)
+[33;1mselenium-hub    |[0m 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.sendRequestToNode(TestSession.java:422)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.forward(TestSession.java:229)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:91)
+[33;1mselenium-hub    |[0m 	... 35 more
+[33;1mselenium-hub    |[0m 12:40:56.677 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: []}}
+[33;1mselenium-hub    |[0m 12:40:56.679 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=f90d961b-1acd-4f08-9155-b4ea18cd7585, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=1, platformName=LINUX, version=91.0.4472.114, applicationName=, platform=LINUX}
+[33;1mselenium-hub    |[0m 12:40:59.788 INFO [RequestHandler.process] - Error forwarding the new session Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m org.openqa.grid.internal.exception.NewSessionException: Error forwarding the request No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:94)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:114)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+[33;1mselenium-hub    |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+[33;1mselenium-hub    |[0m 	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+[33;1mselenium-hub    |[0m 	at java.lang.Thread.run(Thread.java:748)
+[33;1mselenium-hub    |[0m Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+[33;1mselenium-hub    |[0m 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+[33;1mselenium-hub    |[0m 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+[33;1mselenium-hub    |[0m 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[33;1mselenium-hub    |[0m 	at java.net.Socket.connect(Socket.java:607)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[33;1mselenium-hub    |[0m 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+[33;1mselenium-hub    |[0m 	at okhttp3.RealCall.execute(RealCall.java:77)
+[33;1mselenium-hub    |[0m 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.sendRequestToNode(TestSession.java:422)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.internal.TestSession.forward(TestSession.java:229)
+[33;1mselenium-hub    |[0m 	at org.openqa.grid.web.servlet.handler.RequestHandler.forwardNewSessionRequestAndUpdateRegistry(RequestHandler.java:91)
+[33;1mselenium-hub    |[0m 	... 35 more
+[33;1mselenium-hub    |[0m 12:41:04.667 INFO [DefaultRemoteProxy.onEvent] - Marking the node http://172.30.0.4:5555 as down: cannot reach the node for 2 tries
+[33;1mselenium-hub    |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33;1mselenium-hub    |[0m 2021-09-06 12:41:05,671 WARN received SIGTERM indicating exit request
+[33;1mselenium-hub    |[0m 2021-09-06 12:41:05,671 INFO waiting for selenium-hub to die
+[33;1mselenium-hub    |[0m 2021-09-06 12:41:06,673 INFO stopped: selenium-hub (terminated by SIGTERM)
+[33;1mselenium-hub    |[0m Shutdown complete
+[33;1mselenium-hub exited with code 143
+[0m

@@ -3,21 +3,42 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <listeners>
     <listener class-name="com.qa.util.WebEventListener"/>
-    <listener class-name="com.qa.ExtentReporterNG.ExtentReporter"/>
   </listeners>
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setup"/>
+          <include name="validateHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
   <test thread-count="5" name="Test(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.qa.tests.LoginPageTest">
         <methods>
-          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="LoginTest"/>
+          <include name="shutDown"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="setExtent"/>
-          <include name="closeExtent"/>
+          <include name="startup"/>
+          <include name="LoginPageTitleTest"/>
           <include name="verifyLoginHeader"/>
         </methods>
       </class> <!-- com.qa.tests.LoginPageTest -->
+      <class name="com.qa.tests.HomePageTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setup"/>
+          <include name="validateHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.qa.tests.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

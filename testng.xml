@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
 
 <listeners>
-<listener class-name="com.qa.util.WebEventListener"/>
-<listener class-name = "com.qa.ExtentReporterNG.ExtentReporter" />
+<listener class-name="com.qa.util.WebEventListener"></listener>
 </listeners>
-  <test name="Test">
-  <parameter name="browser" value = "chrome" />
+
+
+  <test name="Test">	
+  
+  
     <classes>
       <class name="com.qa.tests.LoginPageTest"/>
-      <!-- <class name="com.qa.tests.HomePageTest"/> -->
+     <!--  <class name="com.qa.tests.OrderTest"/>
+      <class name="com.qa.tests.BaseTest"/> -->
+      <class name="com.qa.tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test1">	
+  
+  
+    <classes>
+      
+     <!--  <class name="com.qa.tests.OrderTest"/>
+      <class name="com.qa.tests.BaseTest"/> -->
+      <class name="com.qa.tests.HomePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
